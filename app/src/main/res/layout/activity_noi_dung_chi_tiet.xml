@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffeaa4"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+
+            android:src="@drawable/hbg"/>
+
+        <TextView
+            android:id="@+id/TieuDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bài Học Android Chi Tiết"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#df03082b"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="440dp"
+        android:layout_height="548dp"
+        android:background="@drawable/cvbg"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/MoTa"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bài Học Android Chi Tiết"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:textColor="#df03082b"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

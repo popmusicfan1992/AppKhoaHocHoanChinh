@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffeaa4"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/BackChiTiet"
+            android:background="@drawable/arrow_left"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+
+            android:src="@drawable/hbg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nội Dung Bài Học Chi Tiết"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#df03082b"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="440dp"
+        android:layout_height="548dp"
+        android:background="@drawable/cvbg"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/rcv_details"
+           android:layout_width="match_parent"
+           android:layout_marginTop="80dp"
+           android:paddingLeft="20dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_height="wrap_content">
+
+       </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>

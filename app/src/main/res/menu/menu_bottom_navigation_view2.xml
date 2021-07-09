@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_chitietbaihoc"
+        android:title="Chi tiết bài học"
+        android:icon="@drawable/ic_baseline_local_library_24"
+        android:iconTint="#999900"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+</menu>
